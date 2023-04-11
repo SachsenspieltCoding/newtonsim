@@ -1,0 +1,17 @@
+name = "newtomsim"
+version = "0.1.0"
+license = "license"
+author = "Sachsenspielt"
+maintainer = "sachsenspielt3@gmail.com"
+copyright = "Copyright 2023, Sachsenspielt"
+
+[build]
+auto-executables = true
+auto-tests = true
+link = "pgplot"
+
+[install]
+library = false
+
+[dependencies]
+stdlib = { git="https://github.com/fortran-lang/stdlib", branch="stdlib-fpm" }
